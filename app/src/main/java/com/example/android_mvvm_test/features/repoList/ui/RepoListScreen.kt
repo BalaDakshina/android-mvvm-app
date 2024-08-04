@@ -16,6 +16,7 @@ import com.example.android_mvvm_test.features.repoList.viewModel.RepoListViewMod
 fun RepoListScreen(
     viewModel: RepoListViewModel = hiltViewModel()
 ) {
+    viewModel.refreshRepoList()
     Box(
         modifier = Modifier
             .fillMaxWidth()
