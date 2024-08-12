@@ -64,6 +64,10 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.hilt)
     implementation(libs.androidx.hilt.compose.navigation)
+    implementation(libs.retrofit)
+    implementation(libs.okhttp)
+    implementation(libs.gson)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
